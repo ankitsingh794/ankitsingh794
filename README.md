@@ -1,16 +1,31 @@
-## Hi there 👋
+# Hi, I'm Ankit Singh 👋  
+🚀 Aspiring Software Engineer | Full-Stack Developer | AI Enthusiast  
 
-<!--
-**ankitsingh794/ankitsingh794** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🔹 About Me  
+- 🎓 B.Tech in Computer Science (AI Specialization), Techno India University  
+- 💻 Skilled in React.js, Node.js, Express.js, MongoDB, Redis  
+- 🔐 Passionate about secure, scalable, and real-time systems  
+- ☁️ AWS Cloud Practitioner (In Progress)  
+- 🔍 Strong problem solver: 170+ LeetCode problems (Striver A2Z roadmap)  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔹 Projects  
+#### 🌍 [WayMate](https://github.com/ankitsingh794/WayMate)  
+AI-powered collaborative travel planner with **real-time group planning**, **Redis caching**, and **AI itinerary generation**.  
+
+#### 🎨 [BitWiseCalc](https://bit-wise-calc.vercel.app/)  
+Interactive visualizer for bitwise operations – **100% Lighthouse performance score**.  
+
+#### 🛍 [IndiLink](https://github.com/ankitsingh794/IndiLink-2)  
+Marketplace MVP developed during **Smart India Hackathon 2024**, delivered in 36 hours.  
+
+---
+
+### 🔹 Tech Stack  
+`JavaScript` | `C++` | `React.js` | `Node.js` | `Express.js` | `MongoDB` | `Redis` | `AWS`  
+
+---
+
+📫 **Connect with me:**  
+[LinkedIn](https://linkedin.com/in/ankitsingh794) | [LeetCode](https://leetcode.com/ankitsingh794)
