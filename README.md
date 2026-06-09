@@ -72,7 +72,7 @@
 
 <div align="center">
   <a href="https://github.com/ankitsingh794">
-    <img src="https://github-readme-stats.vercel.app/api?username=ankitsingh794&show_icons=true&bg_color=000000&title_color=00FF9C&text_color=FFFFFF&icon_color=00FF9C&border_color=00FF9C&hide_border=false" alt="GitHub Stats" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=ankitsingh794&show_icons=true&bg_color=000000&title_color=00FF9C&text_color=FFFFFF&icon_color=00FF9C&border_color=00FF9C&hide_border=false" alt="GitHub Stats" />
   </a>
   <a href="https://github.com/ankitsingh794">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=ankitsingh794&background=000000&ring=00FF9C&fire=00FF9C&currStreakNum=FFFFFF&currStreakLabel=00FF9C&sideNums=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF&border=00FF9C&hide_border=false" alt="GitHub Streak" />
@@ -83,7 +83,7 @@
 
 <div align="center">
   <a href="https://github.com/ankitsingh794">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ankitsingh794&layout=compact&bg_color=000000&title_color=00FF9C&text_color=FFFFFF&border_color=00FF9C&hide_border=false" alt="Top Languages" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ankitsingh794&layout=compact&bg_color=000000&title_color=00FF9C&text_color=FFFFFF&border_color=00FF9C&hide_border=false" alt="Top Languages" />
   </a>
 </div>
 
