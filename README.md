@@ -80,7 +80,7 @@
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=ankitsingh794&theme=dracula&no-frame=true&no-bg=true&margin-w=15" alt="Ankit's GitHub Trophies" />
+    <img src="https://github-profile-trophy-fork-two.vercel.app/?username=ankitsingh794&theme=dracula&no-frame=true&no-bg=true&margin-w=15" alt="Ankit's GitHub Trophies" />
   </a>
 </div>
 
@@ -164,11 +164,14 @@
 ### 🐍 Contribution Graph
 
 <div align="center">
+  <!-- Note: Uncomment the picture block below once you have manually run the 'Generate Snake Animation' workflow in the Actions tab! -->
+  <!--
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ankitsingh794/ankitsingh794/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ankitsingh794/ankitsingh794/output/github-contribution-grid-snake.svg">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ankitsingh794/ankitsingh794/output/github-contribution-grid-snake-dark.svg">
   </picture>
+  -->
 </div>
 
 ---
