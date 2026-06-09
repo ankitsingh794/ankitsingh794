@@ -1,0 +1,206 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+
+\setlength{\multicolsep}{0pt} 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjusted margins to give the text room to breathe on a single page
+\geometry{left=1.2cm, top=0.9cm, right=1.2cm, bottom=0.9cm}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{:\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1},\hspace{0.3mm}#2 & \textit{\small{#3}} 
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=3pt,parsep=0pt]\small}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\newcommand{\name}{Ankit Singh}
+\newcommand{\course}{B. Tech in Computer Science (AI)}
+\newcommand{\phone}{6204558433}
+\newcommand{\emaila}{ankitsinghrjt794@gmail.com}
+\newcommand{\github}{ankitsingh794}
+\newcommand{\website}{https://leetcode.com/u/ankitsingh794/}
+\newcommand{\linkedin}{ankitsingh794}
+
+\begin{document}
+\fontfamily{cmr}\selectfont
+
+\begin{tabularx}{\linewidth}{@{} L r @{}}
+  \textbf{\LARGE \name} & +91-\phone\\
+  \course &  \href{mailto:\emaila}{\emaila}\\
+   {Software Engineering Intern} &  \href{https://github.com/\github}{\textbf{GitHub}} $|$ \href{\website}{\textbf{LeetCode}}\\
+  {Techno India University, Kolkata} & \href{https://in.linkedin.com/in/\linkedin/}{\textbf{LinkedIn}}
+\end{tabularx}
+
+\vspace{-2mm}
+
+\section{\textbf{Education}}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Techno India University}{Kolkata, India}
+      {B. Tech in Computer Science (AI Specialization)}{2023 -- 2027}
+\resumeSubHeadingListEnd
+\vspace{-6mm}
+
+\section{\textbf{Experience}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://achlys-solutions.com/}{Achlys Solutions}}{Remote}
+      {Software Developer Intern}{Apr 2026 -- Present}
+      \resumeItemListStart
+        \item {Engineered a custom Jira "Sum Up" plugin using Atlassian Forge CLI, JavaScript, and React, automating the aggregation of story points and time-tracking metrics across complex project hierarchies.}
+        \item {Architected a single-pass O(n) aggregation engine to bypass strict 25-second serverless execution timeouts, successfully processing up to 2,000 issues in under 10 seconds.}
+        \item {Implemented dynamic pagination loops to reliably fetch and process large datasets from Atlassian REST APIs, eliminating platform rate limit exceptions.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-6mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+    
+    \resumeProject
+      {WayMate - AI-Powered Collaborative Travel Planner} 
+      {Full Stack | Deployed Web \& Mobile Application} 
+      {} 
+      {\href{https://github.com/ankitsingh794/waymate}{\textbf{GitHub}} $|$ \href{https://waymate.vercel.app/}{\textbf{Live}}} 
+      \resumeItemListStart
+        \item {Developed an AI-powered travel planning platform using Node.js, React, OpenRouter, and external travel APIs for itinerary generation and collaborative trip management.}
+        \item {Built a Redis-backed real-time architecture using Socket.IO Pub/Sub, connection pooling, caching, and rate limiting, successfully stress-testing backend services to process 16,500+ events/sec and 2,200+ concurrent operations.}
+        \item {Implemented an HMAC-SHA256-based telemetry pipeline for anonymized mobility analytics, processing 15,000+ aggregation operations during automated reliability testing with zero memory leaks detected.}
+        \item {Engineered a high-throughput authentication system processing 5,000+ concurrent user registrations at a peak throughput of 5,118 users/sec with strict data isolation.}
+      \resumeItemListEnd
+    
+     \vspace{-1mm}
+     
+    \resumeProject
+      {BitWiseCalc - Interactive Bitwise Visualizer} 
+      {Frontend | CS Fundamentals Tool} 
+      {} 
+      {\href{https://github.com/ankitsingh794/bitwisecalc}{\textbf{GitHub}} $|$ \href{https://bit-wise-calc.vercel.app/}{\textbf{Live}}} 
+      \resumeItemListStart
+        \item {Built an interactive algorithmic visualization engine to demonstrate arithmetic and logical operations at the binary level using bit manipulation.}
+        \item {Implemented step-by-step memory animations for core CS concepts such as counting set bits (Brian Kernighan's algorithm).}
+    \resumeItemListEnd
+      
+     \vspace{-1mm}
+     
+    \resumeProject
+      {IndiLink - Artisan Marketplace} 
+      {Backend Architecture | Smart India Hackathon} 
+      {} 
+      {\href{https://github.com/ankitsingh794/indilink}{\textbf{GitHub}}} 
+      \resumeItemListStart
+        \item {Designed backend services, database schemas, and REST API integrations for a 4-member team to deliver a working prototype within a strict 36-hour deadline.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-7.5mm}
+
+\section{\textbf{Technical Skills}}
+ \resumeHeadingSkillStart
+  \resumeSubItem{Languages} 
+    {JavaScript (ES6+), Python, C++, Dart, SQL}
+  \resumeSubItem{Backend \& Cloud} 
+    {Node.js, Express.js, REST APIs, Microservices, WebSockets, Redis, Docker, Vercel, Render} 
+  \resumeSubItem{Databases} 
+    {MongoDB (Mongoose), PostgreSQL, SQLite}
+  \resumeSubItem{Frontend \& Mobile} 
+    {React, Tailwind CSS, Flutter} 
+  \resumeSubItem{Core CS \& Tools} 
+    {System Design, JWT Auth, Rate Limiting, Object-Oriented Programming, DBMS, Operating Systems, Computer Networks, Git, CI/CD} 
+ \resumeHeadingSkillEnd
+
+\vspace{-1.5mm}
+
+\section{\textbf{Data Structures \& Algorithms}}
+\resumeHeadingSkillStart
+ \resumeSubItem{Problem Solving} 
+    {Solved 250+ LeetCode problems covering Greedy, Backtracking, Dynamic Programming, and Advanced Trees/Graphs.}
+\resumeSubItem{Competitive Programming}
+    {Active LeetCode contest participant (rating 1821); strong foundational knowledge of algorithmic complexity.}
+ \resumeHeadingSkillEnd
+
+\vspace{-1mm}
+
+\section{\textbf{Leadership \& Competitions}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+    \resumePOR{Team Lead \& Backend Developer}
+      {Smart India Hackathon}
+      {2024 \& 2025}
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\hspace*{-5mm}\rule{1.035\textwidth}{0.1mm}
+
+\end{document}

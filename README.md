@@ -25,6 +25,14 @@
 
 </div>
 
+<br/>
+
+<div align="center">
+  <i>"If it works, don't touch it."</i>
+</div>
+
+<br/>
+
 ---
 
 <table align="center" border="0" width="100%">
@@ -68,6 +76,16 @@
 
 ---
 
+### 🏆 GitHub Trophies
+
+<div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=ankitsingh794&theme=dracula&no-frame=true&no-bg=true&margin-w=15" alt="Ankit's GitHub Trophies" />
+  </a>
+</div>
+
+---
+
 ### 🔹 GitHub Activity
 
 <div align="center">
@@ -82,54 +100,76 @@
 <br>
 
 <div align="center">
-  <a href="https://github.com/ankitsingh794">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ankitsingh794&layout=compact&bg_color=000000&title_color=00FF9C&text_color=FFFFFF&border_color=00FF9C&hide_border=false" alt="Top Languages" />
-  </a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ankitsingh794&bg_color=000000&color=00FF9C&line=00FF9C&point=FFFFFF&area=true&hide_border=true" alt="GitHub Activity Graph" width="90%" />
 </div>
 
 ---
 
 ### 🔹 Featured Projects
 
-<table align="center" width="100%">
-  <tr>
-    <td width="33%" align="center">
-      <h3>🌍 <a href="https://github.com/ankitsingh794/WayMate">WayMate</a></h3>
-      <p>AI-powered collaborative travel planner with <b>real-time group planning</b>, <b>Redis caching</b>, and <b>AI itinerary generation</b>.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React-000000?style=flat&logo=react&logoColor=00FF9C" />
-        <img src="https://img.shields.io/badge/Node.js-000000?style=flat&logo=node.js&logoColor=00FF9C" />
-        <img src="https://img.shields.io/badge/Redis-000000?style=flat&logo=redis&logoColor=00FF9C" />
-      </p>
-      <p>
-        <a href="https://waymate.vercel.app/"><b>[ Live Demo ]</b></a> | <a href="https://github.com/ankitsingh794/WayMate"><b>[ Source Code ]</b></a>
-      </p>
-    </td>
-    <td width="33%" align="center">
-      <h3>🎨 <a href="https://github.com/ankitsingh794/bitwisecalc">BitWiseCalc</a></h3>
-      <p>Interactive visualizer for bitwise operations – <b>100% Lighthouse performance score</b>.</p>
-      <br/>
-      <p>
-        <img src="https://img.shields.io/badge/React-000000?style=flat&logo=react&logoColor=00FF9C" />
-        <img src="https://img.shields.io/badge/Tailwind-000000?style=flat&logo=tailwind-css&logoColor=00FF9C" />
-      </p>
-      <p>
-        <a href="https://bit-wise-calc.vercel.app/"><b>[ Live Demo ]</b></a> | <a href="https://github.com/ankitsingh794/bitwisecalc"><b>[ Source Code ]</b></a>
-      </p>
-    </td>
-    <td width="33%" align="center">
-      <h3>🛍 <a href="https://github.com/ankitsingh794/IndiLink-2">IndiLink</a></h3>
-      <p>Marketplace MVP developed during <b>Smart India Hackathon 2024</b>, delivered in a strict 36 hours.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Node.js-000000?style=flat&logo=node.js&logoColor=00FF9C" />
-        <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=00FF9C" />
-      </p>
-      <p>
-        <a href="https://github.com/ankitsingh794/IndiLink-2"><b>[ Source Code ]</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
+<details>
+  <summary><b>🌍 WayMate - AI-Powered Collaborative Travel Planner</b></summary>
+  <br/>
+  <ul>
+    <li>Developed an AI-powered travel planning platform using Node.js, React, OpenRouter, and external travel APIs for itinerary generation and collaborative trip management.</li>
+    <li>Built a Redis-backed real-time architecture using Socket.IO Pub/Sub, connection pooling, caching, and rate limiting, successfully stress-testing backend services to process 16,500+ events/sec and 2,200+ concurrent operations.</li>
+    <li>Implemented an HMAC-SHA256-based telemetry pipeline for anonymized mobility analytics, processing 15,000+ aggregation operations during automated reliability testing with zero memory leaks detected.</li>
+    <li>Engineered a high-throughput authentication system processing 5,000+ concurrent user registrations at a peak throughput of 5,118 users/sec with strict data isolation.</li>
+  </ul>
+  <p>
+    <img src="https://img.shields.io/badge/React-000000?style=flat&logo=react&logoColor=00FF9C" />
+    <img src="https://img.shields.io/badge/Node.js-000000?style=flat&logo=node.js&logoColor=00FF9C" />
+    <img src="https://img.shields.io/badge/Redis-000000?style=flat&logo=redis&logoColor=00FF9C" />
+  </p>
+  <p>
+    <a href="https://waymate.vercel.app/"><b>[ Live Demo ]</b></a> | <a href="https://github.com/ankitsingh794/WayMate"><b>[ Source Code ]</b></a>
+  </p>
+</details>
+
+<details>
+  <summary><b>🎨 BitWiseCalc - Interactive Bitwise Visualizer</b></summary>
+  <br/>
+  <ul>
+    <li>Built an interactive algorithmic visualization engine to demonstrate arithmetic and logical operations at the binary level using bit manipulation.</li>
+    <li>Implemented step-by-step memory animations for core CS concepts such as counting set bits (Brian Kernighan's algorithm).</li>
+    <li>Achieved a <b>100% Lighthouse performance score</b>.</li>
+  </ul>
+  <p>
+    <img src="https://img.shields.io/badge/React-000000?style=flat&logo=react&logoColor=00FF9C" />
+    <img src="https://img.shields.io/badge/Tailwind-000000?style=flat&logo=tailwind-css&logoColor=00FF9C" />
+  </p>
+  <p>
+    <a href="https://bit-wise-calc.vercel.app/"><b>[ Live Demo ]</b></a> | <a href="https://github.com/ankitsingh794/bitwisecalc"><b>[ Source Code ]</b></a>
+  </p>
+</details>
+
+<details>
+  <summary><b>🛍 IndiLink - Artisan Marketplace MVP</b></summary>
+  <br/>
+  <ul>
+    <li>Designed backend services, database schemas, and REST API integrations for a 4-member team.</li>
+    <li>Delivered a working prototype within a strict 36-hour deadline during the <b>Smart India Hackathon 2024</b>.</li>
+  </ul>
+  <p>
+    <img src="https://img.shields.io/badge/Node.js-000000?style=flat&logo=node.js&logoColor=00FF9C" />
+    <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=00FF9C" />
+  </p>
+  <p>
+    <a href="https://github.com/ankitsingh794/IndiLink-2"><b>[ Source Code ]</b></a>
+  </p>
+</details>
+
+---
+
+### 🐍 Contribution Graph
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ankitsingh794/ankitsingh794/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ankitsingh794/ankitsingh794/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ankitsingh794/ankitsingh794/output/github-contribution-grid-snake-dark.svg">
+  </picture>
+</div>
 
 ---
 <div align="center">
